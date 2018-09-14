@@ -10,11 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/dainemawer/wordpress-styelint-config.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "wordpress",
+    "coding-standards"
+  ],
+  "author": "Daine Mawer",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dainemawer/wordpress-styelint-config/issues"
   },
-  "homepage": "https://github.com/dainemawer/wordpress-styelint-config#readme"
+  "homepage": "https://github.com/dainemawer/wordpress-styelint-config#readme",
+  "dependencies": {
+    "stylelint": "^9.5.0",
+    "stylelint-declaration-use-variable": "^1.7.0"
+  }
 }
